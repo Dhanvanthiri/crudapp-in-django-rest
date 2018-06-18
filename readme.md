@@ -1,6 +1,29 @@
 A django Rest Application that performs crud on user details.
 
-To Run the application 1. Download the master zip 2. cd to the folder cd crudapp 3. activate the virtualenv by using the command vitualenv . -p python3 4. cd to src by cd src 5. install requirements by using cmd pip install -r requirements.txt 6. instialize database by python manage.py migrate 7. then create superuser by python manage.py createsuperuser 8. then run server by python manage.py runserver 9. vist the site http://localhost:8000/api/
-Or Else you can visit the live site on
 
-https://crudappdhana.herokuapp.com/api/
+### Requirements
+* Linux
+* Python 3.3 and up
+
+To Run the application
+## Download the repo 
+Download the master zip 
+
+cd to the folder
+ `cd crudapp-in-django-rest 
+## Installation
+ activate the virtualenv 
+ `vitualenv . -p python3 
+ ### Change to  src folder
+`cd src 
+ ### Installation Django
+ install requirements 
+ `pip install -r requirements.txt 
+ `python manage.py migrate 
+ `python manage.py createsuperuser
+`python manage.py runserver 
+ ###vist the site 
+ [localhost](http://localhost:8000/api/)
+###Or Else you can visit the live site on
+
+[Live Site](https://crudappdhana.herokuapp.com/api/)
